@@ -1,4 +1,4 @@
-{ 
+{
   "res": 
   {
   "valid":true,
@@ -8,28 +8,48 @@
   {
   
   
-	  "1234567":
+	  "12345678901234":
 	  {
-		"responseCode":"0",
-		"statusMessage":"Success"
+		"error":"0",
+		"deviceImage":"assets/phone_1.jpg",
+		"statusMessage":"Success",
+		"helpDeskKey": "Success"
+	  },
+
+	"913944064912345":
+	  {
+		"error":"0",
+		"deviceImage":"assets/phone_2.jpg",
+		"statusMessage":"Success",
+		"helpDeskKey": "Success"
+	  },
+
+	"987654321054321":
+	  {
+		"error":"0",
+		"deviceImage":"assets/phone_3.jpg",
+		"statusMessage":"Success",
+		"helpDeskKey": "Success"
+	  },	  
+	  "12345678901":
+	  {
+		"error":"-1",
+		"statusMessage":"Corrupted Device",
+		"helpDeskKey": "submitByUser"
 	  },
 	  
-	  "234567":
+	  "12345678902":
 	  {
-		"responseCode":"-1",
-		"statusMessage":"Invalid Esn"
+		"error":"-2",
+		"statusMessage":"Application issue",
+		"helpDeskKey": "submitByHelpDesk"
 	  },
 	  
-	  "2345678":
+	   "errors":
 	  {
-		"responseCode":"-1",
-		"statusMessage":"Corrupted Data"
-	  },
-	  
-	   "error":
-	  {
-		"responseCode":"-1",
-		"statusMessage":"ESN Not Found"
+		"error":"-3",
+		"statusMessage":"Backend System issue",
+		"helpDeskKey": "helpDeskTicket"
 	  }
     
   },
