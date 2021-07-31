@@ -13,7 +13,9 @@
 		"error":"0",
 		"deviceImage":"assets/phone_1.jpg",
 		"statusMessage":"Success",
-		"helpDeskKey": "Success"
+		"helpDeskKey": "Success",
+		"deviceModel":"Galaxy S20 FE 5G"
+		
 	  },
 
 	"913944064912345":
@@ -21,7 +23,8 @@
 		"error":"0",
 		"deviceImage":"assets/phone_2.jpg",
 		"statusMessage":"Success",
-		"helpDeskKey": "Success"
+		"helpDeskKey": "Success",
+		"deviceModel": "Galaxy A02s" 
 	  },
 
 	"987654321054321":
@@ -29,7 +32,8 @@
 		"error":"0",
 		"deviceImage":"assets/phone_3.jpg",
 		"statusMessage":"Success",
-		"helpDeskKey": "Success"
+		"helpDeskKey": "Success",
+		"deviceModel": "iPhone 8 Renewed" 
 	  },	  
 	  "12345678901":
 	  {
